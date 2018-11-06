@@ -1,0 +1,106 @@
+body {
+	font-size: 10px;
+}
+
+header {
+	background: #355;
+	border-bottom: #6BBD65 solid 1px;  
+	color: white;
+}
+ul > li > a {
+	color: #fff;
+	border-bottom: #6BBD65 solid 1px;
+	margin-left: 10px;
+	font-weight: 800;
+}
+/*logo*/
+.logo {
+	background-image: url(svg/logo.svg);
+	background-repeat: no-repeat;
+	display: block;
+	width: 90px;
+	background-size: 200px;
+	height: 50px;
+	margin: 5px auto 5px 30px;
+}
+
+.brand-size {
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+}
+.brand-color {
+	color: #6BBD65;
+}
+.brand-slogan {
+	/*font-size: 11px;*/
+	font-weight: 800;
+	padding: 0;
+	margin: 0;
+	margin-top: -10px;
+}
+.brand-text {
+	margin: 0;
+	padding: 0;
+	margin-left: -5px;
+	margin-top: -10px;
+}
+ul span{
+	background-image: url("svg/bar-menu.svg");
+}
+
+
+}
+
+.image-main-first {
+	background-blend-mode: multiply;
+	background-color: rgba(0, 38, 45, 0.7);
+	/*background-image: url(image/main.jpg);*/
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 680px;
+}
+
+.image-main-second {
+	background-blend-mode: multiply;
+	background-color: rgba(0, 38, 45, 0.7);
+	/*background-image: url(image/main2.jpg);*/
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 680px;
+	transform: scaleX(-1);
+}
+
+.image-main-third {
+	background-blend-mode: multiply;
+	background-color: rgba(0, 38, 45, 0.7);
+	/*background-image: url(image/main3.jpg);*/
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 680px;
+
+}
+.icon-bar {
+	margin: .27em auto;
+	display: block;
+	width: 14px;
+	height: 2px;
+}
+
+
+/*цвета
+#434345 rgba(67, 67, 69, 0.8)
+#00262D rgba(0, 38, 45, 1);
+#021b1f (80%)
+градиент
+#4FB674*/
+/*#73CB37*/
+/* Проблемы
+	1. логотип не корректно отображаеться текст логотипа(нужно писать лишний код)
+	2. некоторые цвета не соответсвуют шаблону 
+	3. неподготовленные картинки под сайт (что будет тормозить работу сайта)
+*/
